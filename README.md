@@ -1,12 +1,14 @@
 
 # Versioning your Data and Scripts
 
-Wednesday August 7, 2019
+Wednesday August 21, 2019
 
-Authors: Radhika Khetani (rkhetani), Bob Freeman (devbioinfoguy), Meeta Mistry (mistrm82), Kathleen Keating (kthlnktng) 
+Authors: Radhika Khetani ([rkhetani](https://github.com/rkhetani)), Bob Freeman ([devbioinfoguy](https://github.com/devbioinfoguy)), Meeta Mistry ([mistrm82](https://github.com/mistrm82)), Kathleen Keating ([kthlnktng](https://github.com/kthlnktng)) 
 
 ## Overview:
-Tired of wading through files/folders titled 'paper_v1', 'paper_v2', 'paper_v3_beforeAdvisor'... ? This hands-on workshop will introduce the concepts of using a *version control system* to manage changes and the history of your data files (text, web, scripts, etc.). 
+Tired of wading through files/folders titled 'paper_v1', 'paper_v2', 'paper_v3_beforeAdvisor'... ? This hands-on workshop will introduce the concepts of using a *version control system* to manage changes and the history of your data files (text, web, scripts, etc.).
+
+The lessons in this repository provide an introduction to Git using the GUI client from [GitKraken](https://www.gitkraken.com/git-client) and the Github interface online.
 
 ## Pre-lesson Preparation:
 
@@ -14,16 +16,15 @@ Tired of wading through files/folders titled 'paper_v1', 'paper_v2', 'paper_v3_b
 2. Create an account for yourself on [GitHub](http://github.com). Please be sure to select the free/academic account, as this option has more long-term flexibility.
 3. Download the [workshop example files](../../raw/master/data/example_files.zip)
 
-
 ## Lessons:
 
+### Introductory lessons
 1. [Introduction to Version Control](01_Intro_to_versioning.md)
 2. [Getting Started with Git using GitKraken](02_GitKraken.md)
 3. [Remote repositories, managing conflicts](03_Github_remote_and_conflicts.md)
-4. [Working with Commits*](04_Working_with_commits.md) (WIP! This uses old narrative and commit timeline)
-5. Branching*
 
-**Intermediate lessons*
+### Intermediate lessons
+***Coming soon!!***
 
 ***
 
