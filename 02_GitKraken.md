@@ -310,7 +310,7 @@ When we return to GitKraken, it has noticed the two changes. Since the change in
 2. Find the folder on your local computer, and add a couple of small text files to it from your computer. 
 3. Create a new plain text file called "data-file.txt", add a line or 2 of content to it and save it to the "learning_github" folder.
 4. Go to GitKraken, and commit the change with an approriate message.
-5. Switch repos back to class repo.
+5. Switch repos back to the `gitkraken_workshop` repo.
 
 ***
 
