@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Introduction to Versioning"
-author: "Daniel van Strien, Radhika Khetani, Bob Freeman, Amir Karger"
+author: "Daniel van Strien, Radhika Khetani, Bob Freeman, Meeta Mistry, Kathleen Keating, Amir Karger"
 ---
 
 #  Versioning your Data and Scripts
