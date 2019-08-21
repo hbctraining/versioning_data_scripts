@@ -277,7 +277,7 @@ montecarloPi(3000)
 # END
 ```
 
-2. Let's to add that utilities file to the repo. From your example_files folder, drag the `util_functions.R` script file into the repo folder `code`. 
+2. Let's drag the `util_functions.R` script file from the downloaded example_files folder into the `code` folder in our repo. 
 
 When we return to GitKraken, it has noticed the two changes. Since the change in the main code file depends on the presence of this other file, we need to ensure this snapshot captures these dependent changes. So we stage both files, give a meaningful commit message reflecting this process, and Commit. Your repo should look like the following:
 
