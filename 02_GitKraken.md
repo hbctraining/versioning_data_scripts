@@ -244,34 +244,11 @@ Again, you'll see our timeline has changed to include this commit. Now also stag
 
 <img src="img/2.new-post_serial_commit_changes.png" width="700" align="center">
 
-There may be times, however, when we wish to ensure that we save a coordinated set of changes. For example, it's sometimes better to refactor our code so that utility functions are kept in a separate code file, and then called from our main file. We'll do that with our code snippets with following sets of changes:
+There may be times, however, when we wish to ensure that we save a coordinated set of changes. For example, if we want to make coordinated changes to multiple files it makes sense to make the changes and then stage (add) and commit all together. 
 
-1. Remove the square_it and montecarloPi section of code from the main file (as these are being separated into the new utilities file) and replace it three function calls:
+Let's say we want to update the code in the `scriplets.R` file to the following wherein we are referring to that `util_functions.R` that we left behind in the original folder we had downloaded. 
 
-```R
-hello_world()
-
-square_it(10)
-
-montecarloPi(3000)
-```
-
-2. Let's functionalize the `hello_world` code lines:
-
-```R
-hello_world <- function() {
-  myString <- "Hello, World!"
-  print (myString)
-}
-```
-
-3. And finally, we need to reference and ingest our functions that have been moved to another file. So we include a `source` line:
-
-```R
-source("./util_functions.R")
-```
-
-Your completed `scriptlets.R` file should look like the following:
+1. Let's update the `scriplets.R` file with the following information and save it:
 
 ```R
 #!/usr/bin/env Rscript
@@ -289,7 +266,6 @@ hello_world <- function() {
   print (myString)
 }
 
-
 # main code
 
 hello_world()
@@ -301,14 +277,11 @@ montecarloPi(3000)
 # END
 ```
 
-Be sure to save this file. 
-
-4. As a final step for the coordinated changes, we need to add this utilities file to the repo. From your workshop downloads folder, drag the `util_functions.R` script file into the repo folder `code`. 
+2. Let's to add that utilities file to the repo. From your example_files folder, drag the `util_functions.R` script file into the repo folder `code`. 
 
 When we return to GitKraken, it has noticed the two changes. Since the change in the main code file depends on the presence of this other file, we need to ensure this snapshot captures these dependent changes. So we stage both files, give a meaningful commit message reflecting this process, and Commit. Your repo should look like the following:
 
 <img src="img/2.new-post_coordinated_commit_change.png" width="700" align="center">
-
 
 ***
 
