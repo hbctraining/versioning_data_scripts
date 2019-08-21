@@ -57,8 +57,6 @@ There are a number of different ways to add files/folders for GitKraken to track
 
 Click on Init, and then GitHub.com, so that we can create a repository that we will keep locally, as well at a remote location as a backup or perhaps for sharing:
 
-<img src="img/2.new-init.png" width="700" align="center">
-
 Fill in the fields as appropriate:
 * your account
 * the name of the repository. Keep this to letters, numbers, and underscores. For this class, let's call it 'gitkraken_workshop'
@@ -68,13 +66,13 @@ Fill in the fields as appropriate:
 * For the New repository path, select the location on your local computer or shared drive / mounted volume where the repo folder should be placed. Please include the name of the folder to house the repo and its files, or create the new folder inside this Browse window. For this class, let's place the repo on your Desktop.
 * Finally, click on the Create Repository and Clone button.
 
+<img src="img/2.new-init.png" width="700" align="center">
+
 **Note: sometimes people fail at this step and they are confused as to how to proceed. FINISH THESE HELPFUL INSTRUCTIONS!**
 
 Voila! You now have your first Git repo!
 
-<img src="img/2.new-init.png" width="700" align="center">
-
-Once we have added our folder we will be able to see it in a list of repositories on the left column.
+Our folder should now be visible on the top left and we will be able to see more information about it in the left column.
 
 <img src="img/2.new-first_repo.png" width="700" align="center">
 
