@@ -3,7 +3,7 @@
 
 Wednesday August 21, 2019
 
-Authors: Radhika Khetani ([rkhetani](https://github.com/rkhetani)), Bob Freeman ([devbioinfoguy](https://github.com/devbioinfoguy)), Meeta Mistry ([mistrm82](https://github.com/mistrm82)), Kathleen Keating ([kthlnktng](https://github.com/kthlnktng)) 
+Authors: Bob Freeman ([devbioinfoguy](https://github.com/devbioinfoguy)), Radhika Khetani ([rkhetani](https://github.com/rkhetani)), Meeta Mistry ([mistrm82](https://github.com/mistrm82)), Kathleen Keating ([kthlnktng](https://github.com/kthlnktng)) 
 
 ## Overview:
 Tired of wading through files/folders titled 'paper_v1', 'paper_v2', 'paper_v3_beforeAdvisor'... ? This hands-on workshop will introduce the concepts of using a *version control system* to manage changes and the history of your data files (text, web, scripts, etc.).
