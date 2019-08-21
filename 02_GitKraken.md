@@ -51,9 +51,6 @@ Tracking items in a folder (repository) using Git:
 
 Download the folder we have generated for this session [from here](../../raw/master/data/example_files.zip), and unzip it in a location of your choosing. It's usually easiest to place it on the desktop to retrieve it later more conveniently.
 
-
-
-
 ### Creating a Folder/Repository, Starting from your Local Machine
 
 There are a number of different ways to add files/folders for GitKraken to track. For this lesson, click on the folder icon at the top left corner. This will allow you to either *Open* an existing repository, or *Clone* a repository that you or someone else has created, or *Init* (initialize/create) a new repository. Today, we will be initializing a repository.
@@ -95,17 +92,11 @@ The folder we created the repsitory with now contains an extra folder with the n
 
 <img src="img/2.new-finder_view.png" width="700" align="center">
 
-
-### Creating a Repository, by Cloning an Existing Project
-
-
 ### Staging and Committing Changes
-
 
 But before we continue, we wish to utilize a few best practices from research data management: organize your files, using appropriate folder structure and file naming. Create 5 new directories: code, data, docs, figures, and other; and copy all but three files into these directories, placing them into their appropriate, final location. Leave behind the files "Pi Formulas...", "README.md" (since one is already there), and "util_functions.R". When done, your repo should look something like the following image:
 
 <img src="img/2.new-finder_view_added_files.png" width="700" align="center">
-
 
 When we switch back to GitKraken, you'll notice the timeline window at the top has changed. GitKraken has noticed files have changes, and it's indicated this new set of changes is considered Work in Progress:
 
@@ -124,7 +115,6 @@ We next need to tell Git that we wish to prep these files for a commit, what we 
 You do have the option of adding only certain files to the Staging area if you wish to make separate commits. Simply click on the work Stage that appears near the files you wish to include.
 
 To commit changes you must give a summary of the changes, include an optional message, and click on the Commit button:
-
 
 <img src="img/2.new-local_change.png" width="700" align="center">
 
@@ -152,11 +142,9 @@ We're going to make several sets of changes that reflect the flexibility and cap
 Let's open the `README.md` document using our favorite text editor (see note below about text editors) and make this more useful. GitHub automatically renders Markdown document into readable HTML pages that are displayed at the bottom of the main page of your repo. Let's turn this into something more meaningful by added some boilerplate text and helpful information to the small amount of text already there:
 
 ```
-
 ## Overview
 Our code will demonstrate the different code snippets that have been used for programming
-classes. We
-will have this written in both R and Python. 
+classes. We will have this written in both R and Python. 
 
 ## Installation
 The full suite of code will require the Tmisc and dplyr R packages; 
@@ -175,7 +163,6 @@ Contributions and references are included in the source code files.
 
 ## Licensing
 This is all available as CC BY 4.0 license. Enjoy!
-
 ```
 
 Save the changes to your file.
@@ -222,7 +209,6 @@ for (trials in 1:3000) {
 
 
 # END
-
 ```
 
 Save this file as well, and go back to GitKraken. Again, the program creates a new WIP timeline entry as it has detected changes. Click on this WIP line to show that GitKraken has noticed that our files have changed, and click on the README.md (file icon with an elipsis inside):
