@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Git(hub) Remote and Conflicts"
-author: "Bob Freeman, Radhika Khetani, Amir Karger"
+author: "Bob Freeman, Meeta Mistry, Radhika Khetani, Kathleen Keating"
 ---
 
 ***
