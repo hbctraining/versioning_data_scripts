@@ -92,7 +92,13 @@ The folder we created the repsitory with now contains an extra folder with the n
 
 ### Staging and Committing Changes
 
-But before we continue, we wish to utilize a few best practices from research data management: organize your files, using appropriate folder structure and file naming. Create 5 new directories: code, data, docs, figures, and other; and copy all but three files into these directories, placing them into their appropriate, final location. Leave behind the files "Pi Formulas...", "README.md" (since one is already there), and "util_functions.R". When done, your repo should look something like the following image:
+But before we continue, we wish to utilize a few best practices from research data management: organize your files, using appropriate folder structure and file naming. 
+
+1. Let's start by creating 5 new directories: code, data, docs, figures, and other
+2. Now, let's move all but three files into these directories from the example_files folder (that we downloaded and unzipped earlier) by placing them into their appropriate, final location as shown in the image below. 
+3. Leave behind the files "Pi Formulas...", "README.md" (since one is already there), and "util_functions.R". 
+
+When done, your repo should look something like the following image:
 
 <img src="img/2.new-finder_view_added_files.png" width="700" align="center">
 
