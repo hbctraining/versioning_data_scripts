@@ -143,7 +143,11 @@ A useful way to think about commits is as the ‘history’ of your project. Eac
 
 We're going to make several sets of changes that reflect the flexibility and capability of our version control system. 
 
-Let's open the `README.md` document using our favorite text editor (see note below about text editors) and make this more useful. GitHub automatically renders Markdown document into readable HTML pages that are displayed at the bottom of the main page of your repo. Let's turn this into something more meaningful by added some boilerplate text and helpful information to the small amount of text already there:
+Let's open the `README.md` document using our favorite text editor (see note below about text editors) and make this more useful. The information in this document is displayed at the bottom of the main page of your repo when you view it on github online. The `.md` extension means that this is a text file in markdown format, which GitHub automatically renders into readable HTML pages. (More information about markdown format can be [found here](https://guides.github.com/features/mastering-markdown/).)
+
+> README files are an essential part of any analysis workflow, so that your future self or your collaborators are able to understand what they need to know. Git and Github encourage this practice for every repository. [Click here to learn more about README files associated with biomedical datasets/analyses](https://datamanagement.hms.harvard.edu/readme-files).
+
+Let's turn our README.md file for this git repository into something more meaningful by added some boilerplate text and helpful information to the small amount of text already there:
 
 ```
 ## Overview
