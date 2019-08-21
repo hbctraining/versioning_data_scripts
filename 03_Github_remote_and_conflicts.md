@@ -56,7 +56,7 @@ This solitary action requires a description and subsequent Commit:
 
 <img src="img/3.commit_delete_one_file.png" width="700" align="center">
 
-Let's delete the other two as well. Your code repo should look like the following:
+Let's delete the other two as well. the `code` folder in your repo should look like the following:
 
 <img src="img/3.code_folder_after_deletions.png" width="700" align="center">
 
