@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Getting Started with Git using GitKraken"
-author: "Bob Freeman, Radhika Khetani, Amir Karger"
+author: "Bob Freeman, Meeta Mistry, Radhika Khetani, Kathleen Keating"
 ---
 
 ***
