@@ -112,7 +112,7 @@ Click on the WIP line at the top to show the files it is watching, show in the b
 
 A **commit** tells Git that you made some changes which you want to record. Though a **commit** seems similar to saving a file, there are different aims behind ‘committing’ changes compared to saving changes. **Commits** take a snapshot of the file at that point and allow you to document information about the changes made to the document.
 
-We next need to tell Git that we wish to prep these files for a commit, what we call an initial commit, when we take a snapshot of the files at the start of our work and any tracking that we wish to do. To include these files for a commit, we **Stage** the changes by clicking on the 'Stage all changes' button:
+We next need to tell Git that we wish to prep these files for a commit, what we call an initial commit, when we take a snapshot of the files at the start of our work and any tracking that we wish to do. To include or **add** these files for a commit, we **stage** the changes by clicking on the 'Stage all changes' button:
 
 <img src="img/2.new-initial_commit_stage.png" width="700" align="center">
 
@@ -223,7 +223,7 @@ Save this file as well, and go back to GitKraken. Again, the program creates a n
 
 <img src="img/2.new-viewing_readme_diff.png" width="700" align="center">
 
-When you click on the filename, you will see that these new lines of text appear; this lets us know that Git is able to see changes in your file but at the moment these changes haven’t been recorded in an official ‘snapshot’ of your repository. To do this we need to **add** and **commit** our changes, just as we did before.
+When you click on the filename, you will see that these new lines of text appear; this lets us know that Git is able to see changes in your file but at the moment these changes haven’t been recorded in an official ‘snapshot’ of your repository. To do this we need to **add** (**stage**) and **commit** our changes, just as we did before.
 
 <img src="img/git-staging-area.png" width="700" align="center">
 
