@@ -15,12 +15,9 @@ Once you have ‘published’ your repository it will be viewable on your profil
 
 For this lesson, we will stick with a public repository. To quickly view your repository online right-click on your remote's Origin in the left pane, and select 'View origin on GitHub.com'. This will reveal your online repository in your web browser.
 
-
 <img src="img/2.new-view_origin_on_github.png" width="700" align="center">
 
-
 <img src="img/2.new-repo_on_github.png" width="700" align="center">
-
 
 Once your document is online, you can continue to make local changes to your file. But you will have to synchronize your local changes to reflect these changes in the published GitHub repository. GitHub stores changes both locally (on your computer) and remotely (on their servers), and it is important to keep these changes in sync. 
 
@@ -36,7 +33,6 @@ Click on the 'Edit' option or icon. You will now be able to edit the file and ad
 # Square function
 # adapted from https://hbctraining.github.io/Intro-to-R/lessons/03_introR-functions-and-arguments.html#user-defined-functions
 # and https://www.r-bloggers.com/how-to-write-and-debug-an-r-function/
-
 ```
 
 and the Anscombe's quartet function:
@@ -120,8 +116,6 @@ And finally, clicking on the File View button shows all the changes together, wi
 <img src="img/3.new-history_combined_file_view.png" width="700" align="center">
 
 Click on the X at the upper right to close this window and return to the commit timeline.
-
-
 
 ## Managing Conflicts
 
