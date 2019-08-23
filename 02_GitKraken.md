@@ -32,6 +32,8 @@ Most of you should have already installed [GitKraken](https://www.gitkraken.com/
 
 <img src="img/2.new-setup2.png" width="700" align="center">
 
+When connecting GitHub to GitKraken, make sure that the authorization is performed on either Chrome or Firefox and not on Internet explorer.
+
 Once you sign in, GitKraken will take you to it's Welcome screen. At this point, you are ready to start working with a repository.
 
 ## Version Controlling a directory of files
