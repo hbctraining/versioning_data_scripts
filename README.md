@@ -6,9 +6,14 @@ December, 2019
 Authors: Bob Freeman ([devbioinfoguy](https://github.com/devbioinfoguy)), Radhika Khetani ([rkhetani](https://github.com/rkhetani)), Meeta Mistry ([mistrm82](https://github.com/mistrm82)), Kathleen Keating ([kthlnktng](https://github.com/kthlnktng)) 
 
 ## Overview:
-Tired of wading through files/folders titled 'paper_v1', 'paper_v2', 'paper_v3_beforeAdvisor'... ? This hands-on workshop will introduce the concepts of using a *version control system* to manage changes and the history of your data files (text, web, scripts, etc.).
+Tired of wading through files/folders titled 'paper_v1', 'paper_v2', 'paper_v3_beforeAdvisor'... ? This hands-on workshop will introduce the concepts of using a version control system to manage changes and the history of your data files (text, data, scripts, etc.) with [Git](https://git-scm.com/) using the [GitKraken](https://www.gitkraken.com/) interface, as well as on [GitHub](github.com). 
 
-The lessons in this repository provide an introduction to Git using the GUI client from [GitKraken](https://www.gitkraken.com/git-client) and the Github interface online.
+Attendees will participate in multiple exercises to learn how version control works, including: 
+* setting up Git repositories
+* recording changes
+* working both locally and remotely on GitHub
+* managing conflicts
+* best practices for working with version control
 
 ## Pre-lesson Preparation:
 
