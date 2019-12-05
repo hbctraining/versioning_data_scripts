@@ -143,7 +143,7 @@ Click on the X at the upper right to close this window and return to the commit 
 
 ***
 
-Next: [Managing Conflicts](04_managing_conflicts.md)
+Next: [Managing Conflicts](04_Managing_conflicts.md)
 
 ***
 
