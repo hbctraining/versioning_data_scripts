@@ -1,7 +1,7 @@
 
 # Versioning your Data and Scripts
 
-Wednesday August 21, 2019
+December, 2019
 
 Authors: Bob Freeman ([devbioinfoguy](https://github.com/devbioinfoguy)), Radhika Khetani ([rkhetani](https://github.com/rkhetani)), Meeta Mistry ([mistrm82](https://github.com/mistrm82)), Kathleen Keating ([kthlnktng](https://github.com/kthlnktng)) 
 
