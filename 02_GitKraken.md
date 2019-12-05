@@ -46,7 +46,7 @@ Once you sign in, GitKraken will take you to it's welcome screen. At this point,
 *"A Git repository is the .git/ folder inside a project (folder). This repository tracks all changes made to files in your project, building a history over time. Meaning, if you delete the .git/ folder, then you delete your project’s history."* 
 -adapted from [https://blog.axosoft.com/learning-git-repository/](https://blog.axosoft.com/learning-git-repository/)
 
-Essentially, a (project) folder is chosen to be tracked and a git repository is initiated within it; this ensure that the contents, and the changes to the contents within that folder will be "watched" by Git.
+Essentially, a (project) folder is chosen to be tracked and a Git repository is initiated within it; this ensure that the contents, and the changes to the contents within that folder will be "watched" by Git.
 
 A few salient features of repositories are listed below:
 * A repository can have many files and sub-folders (basically, a normal project folder)
