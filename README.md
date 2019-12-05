@@ -20,7 +20,7 @@ The lessons in this repository provide an introduction to Git using the GUI clie
 
 1. [Introduction to Version Control](01_Intro_to_versioning.md)
 2. [Getting Started with Git using GitKraken](02_GitKraken.md)
-3. [Remote repositories, managing conflicts](03_Github_remote.md)
+3. [Remote repositories](03_Github_remote.md)
 4. [Managing Conflicts](04_managing_conflicts.md)
 
 ***
