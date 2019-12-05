@@ -1,3 +1,15 @@
+---
+layout: default
+title: "Managing Conflicts"
+author: "Bob Freeman, Meeta Mistry, Radhika Khetani, Kathleen Keating"
+---
+
+***
+
+Previous: [Git(hub) Remote](03_Github_remote.md)
+
+***
+
 ## Managing Conflicts
 
 A **conflict** emerges when you try to merge (sync) two versions of a document with changes which conflict with each other. If you are careful about committing and syncing then it is unlikely you will run into this issue; but if you do, it can be resolved fairly easily.
