@@ -59,22 +59,23 @@ Download the folder we have generated for this session [from here](../../raw/mas
 
 ### Creating a Folder/Repository, Starting from your Local Machine
 
-There are a number of different ways to add files/folders for Git/GitKraken to track. For this lesson, click on the folder icon at the top left corner. This will allow you to either *Open* an existing repository, or *Clone* a repository that you or someone else has created, or *Init* (initialize/create) a new repository. Today, we will be initializing a repository within a new folder.
+There are a number of different ways to add files/folders for Git/GitKraken to track.
 
-Click on Init, and then GitHub.com, so that we can create a repository that we will keep locally, as well at a remote location as a backup or perhaps for sharing:
+* **Click on the folder icon at the top left corner**. This will allow you to either *Open* an existing repository, or *Clone* a repository that you or someone else has created, or *Init* (initialize/create) a new repository. 
+* Today, we will be initializing a repository within a new folder, **click on Init, and then GitHub.com**, so that we can create a repository that we will keep locally, *as well at a remote location* as a backup or perhaps for sharing:
 
 <img src="img/2.new-init.png" width="700" align="center">
 
 Fill in the fields as appropriate:
-* your account
-* the name of the repository. Keep this to letters, numbers, and underscores. For this class, let's call it "gitkraken_workshop"
-* a good description
-* set the access for the remote location, whether this should be viewable by anyone, or kept private to yourself and people that you specifically add as collaborators
-* leave the "Clone after init" option checked
+* your GitHub account
+* the name of the repository. *Keep this to letters, numbers, and underscores; for this class, let's call it "gitkraken_workshop".*
+* add a description of what this folder/repository will contain.
+* set the access for the remote location, whether this should be viewable by anyone, or kept private to yourself and only people you add as collaborators
+* leave the "Clone after init" option checked. This will make the repository available to you on GitHub.
 * For the "New repository path", select a location on your computer where the newly created folder (with repo) should be placed using the Browse window. For this class, let's place the repo on your Desktop.
 * Finally, click on the "Create Repository and Clone" button.
 
-**Note: sometimes people fail at this step and they are confused as to how to proceed. FINISH THESE HELPFUL INSTRUCTIONS!**
+**Note: sometimes people fail at this step and they are confused as to how to proceed. FINISH THE INSTRUCTIONS LISTED ABOVE!**
 
 Voila! You now have your first Git repo!
 
@@ -92,23 +93,24 @@ Since we'll now want to add more files to this repository, right-mouse click on 
 
 <img src="img/2.new-show_in_finder.png" width="700" align="center">
 
-The folder we created the repsitory with now contains an extra folder with the name `.git` (this is a hidden folder). This folder is how GitKraken will track changes (adding files/folders, modifying existing ones, deleting files/folders) we make within our version controlled folder: 
+The folder we created the repository with now contains an extra folder with the name `.git` (this is a hidden folder). This folder is how GitKraken will track changes (adding files/folders, modifying existing ones, deleting files/folders) we make within our version controlled folder: 
 
 <img src="img/2.new-finder_view.png" width="700" align="center">
+
+> To view hidden folders in Mac OSX, you can press Command+Shift+Dot.
 
 ### Staging and Committing Changes
 
 But before we continue, we wish to utilize a few best practices from research data management: organize your files, using appropriate folder structure and file naming. 
 
 1. Let's start by creating 5 new directories: `code`, `data`, `docs`, `figures`, and `other`
-2. Now, let's move all but three files into these directories from the example_files folder (that we downloaded and unzipped earlier) by placing them into their appropriate, final location as shown in the image below. 
-3. Leave behind the files `Pi Formulas...`, `README.md` (since one is already exists in our new repo), and `util_functions.R`. 
+2. Now, let's move some of the files into these newly created directories from the downloaded `example_files` folder. Move the files into the appropriate folders as shown in the image below. We won't be moving `Pi Formulas...`, `README.md` (since one is already exists in our new repo), and `util_functions.R`.
 
-When done, your repo should look something like the following image:
+When done with the moving, your new repo (folder) should look something like the following image:
 
 <img src="img/2.new-finder_view_added_files.png" width="700" align="center">
 
-When we switch back to GitKraken, you'll notice the timeline window at the top has changed. GitKraken has noticed files have changes, and it's indicated this new set of changes is considered "Work in Progress" (WIP):
+Now, when we switch back to GitKraken, you'll notice the timeline window at the top has changed. GitKraken has noticed files have changes, and it's indicated this new set of changes is considered "Work in Progress" (WIP):
 
 <img src="img/2.new-first_wip.png" width="700" align="center">
 
@@ -118,11 +120,11 @@ Click on the **WIP** line at the top to show the files it is watching, show in t
 
 A **commit** tells Git that you made some changes which you want to record. Though a **commit** seems similar to saving a file, there are different aims behind ‘committing’ changes compared to saving changes. **Commits** take a snapshot of the file at that point and allow you to document information about the changes made to the document.
 
-We next need to tell Git that we wish to prep these files for a commit, what we call an initial commit, when we take a snapshot of the files at the start of our work and any tracking that we wish to do. To include or **add** these files for a commit, we **stage** all the changes by clicking on the "Stage all changes" button:
+We next need to tell Git that we wish to stage these files for a commit, what we call an initial commit, when we take a snapshot of the files at the start of our work and any tracking that we wish to do. To include or **add** these files for a commit, we **stage** all the changes by clicking on the "Stage all changes" button:
 
 <img src="img/2.new-initial_commit_stage.png" width="700" align="center">
 
-You do have the option of adding only certain files to the "Staging" area if you wish to make separate commits. Simply click on the word Stage that appears near the files you wish to include.
+You also have the option of adding only certain files to the "Staging" area if you wish to make separate commits. Simply click on the word Stage that appears near the files you wish to include.
 
 To commit changes **you must give a summary of the changes**, include an optional message, and click on the Commit button:
 
@@ -180,7 +182,7 @@ This is all available as CC BY 4.0 license. Enjoy!
 
 Save the changes to your file.
 
-Let's also open the `scriptlets.R` file. You'll notice we have some template text there as well --  great for reminding you what you need to do when starting to code. Let's also change the file to reflect the new example codes we've found. Feel free to copy & paste this code:
+Let's also open the `scriptlets.R` file. You'll notice we have some template text there as well --  great for reminding you what you need to do when starting to code. Let's also change the file to reflect the new example codes we've found. Copy & paste this code:
 
 ```
 #!/usr/bin/env Rscript
@@ -224,7 +226,7 @@ for (trials in 1:3000) {
 # END
 ```
 
-Save this file as well, and go back to GitKraken. Again, the program creates a new WIP timeline entry as it has detected changes. Click on this WIP line to show that GitKraken has noticed that our files have changed, and click on the README.md (file icon with an ellipsis inside):
+Save this file as well, and go back to GitKraken. Again, the program creates a new **WIP** timeline entry as it has detected changes. Click on this WIP line to show that GitKraken has noticed that our files have changed, and click on the README.md (file icon with an ellipsis inside):
 
 <img src="img/2.new-viewing_readme_diff.png" width="700" align="center">
 
@@ -238,7 +240,7 @@ When you click on the filename, you will see that these new lines of text appear
 
 In the context of GitKraken when you **stage** your changes, it is similar to the **add** command on the command line interface. You can add several changes in the staging area, and only **commit** when you are ready. 
 
-Since we wish to keep all the different types of changes as separate commits, we will stage and commit first the documentation change, and then the code change. 
+Since we wish to keep all the different types of changes as separate commits, we will stage and commit first the documentation change to the README file, and then the code change in the Rscript file. 
 
 First, stage only the `README.md` file, and, as we did with our previous initial commit, include a change message, and click on the Commit button:
 
@@ -248,9 +250,9 @@ Again, you'll see our timeline has changed to include this commit. Now also stag
 
 <img src="img/2.new-post_serial_commit_changes.png" width="700" align="center">
 
-There may be times, however, when we wish to ensure that we save a coordinated set of changes. For example, if we want to make coordinated changes to multiple files it makes sense to make the changes and then stage (add) and commit all together (atomic commit). 
+There may be times, however, when we wish to ensure that we save a coordinated set of changes. For example, if we want to make coordinated changes to multiple files it makes sense to make the changes and then stage (add) and commit all together (**atomic commit**). 
 
-Let's say we want to update the code in the `scriplets.R` file to the following wherein we are referring to that `util_functions.R` that we left behind in the original folder we had downloaded. 
+Let's say we want to update the code in the `scriplets.R` file to the following wherein we want to use the `util_functions.R` in the code. Remember that the `util_functions.R` is the Rscript file we left behind in the folder we had downloaded. 
 
 1. Let's update the `scriplets.R` file with the following information and save it:
 
@@ -281,9 +283,9 @@ montecarloPi(3000)
 # END
 ```
 
-2. Let's drag the `util_functions.R` script file from the downloaded example_files folder into the `code` folder in our repo. 
+2. Now, let's move the `util_functions.R` script file from the downloaded `example_files` folder into the `code` folder in our new repo. 
 
-When we return to GitKraken, it has noticed the two changes. Since the change in the main code file depends on the presence of this other file, we need to ensure this snapshot captures these dependent changes. So we stage both files, give a meaningful commit message reflecting this process, and Commit. Your repo should look like the following:
+When we return to GitKraken, it has noticed the two changes. Since the change in the main code file depends on the presence of this other file, we need to ensure this snapshot captures these dependent changes. So we stage both files, give a meaningful commit message reflecting this process, and Commit. Your repo should now look like the following:
 
 <img src="img/2.new-post_coordinated_commit_change.png" width="700" align="center">
 
