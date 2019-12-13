@@ -301,7 +301,7 @@ When we return to GitKraken, it has noticed the two changes. Since the change in
 
 ***
 
-Next: [Remote repositories, managing conflicts](03_Github_remote_and_conflicts.md)
+Next: [Remote repositories, managing conflicts](https://hbctraining.github.io/versioning_data_scripts/03_Github_remote.html)
 
 ***
 
