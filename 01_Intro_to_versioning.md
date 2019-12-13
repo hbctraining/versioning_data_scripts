@@ -47,7 +47,7 @@ If there aren't conflicts (i.e updates to the same line), the two sets of change
 
 There are a lot of [different version control systems available](https://en.wikipedia.org/wiki/List_of_version_control_software). These systems enable you to track changes locally or remotely (easy for collaborations), and there are hosts available for remote management of your "[repositories](https://en.wikipedia.org/wiki/Repository_(version_control))".
 
-In this class we will be focusing on [Git](git-scm.com). Git is usually used for version control on a local computer and you do not need internet access to use it (internet access will be needed to download Git). The local version control setup with Git (or other version control systems) can be connected to an online setup that hosts repositories for sharing and collaboration. 
+In this class we will be focusing on [Git](https://git-scm.com/). Git is usually used for version control on a local computer and you do not need internet access to use it (internet access will be needed to download Git). The local version control setup with Git (or other version control systems) can be connected to an online setup that hosts repositories for sharing and collaboration. 
 
 GitHub is currently the most popular host of open source projects by [number of projects and number of users](https://en.wikipedia.org/wiki/Comparison_of_source_code_hosting_facilities#Popularity). But other hosts exist, including [SourceForge](https://sourceforge.net/), [BitBucket](https://bitbucket.org/), and [Gitlab](https://about.gitlab.com/), to name a few.
 
