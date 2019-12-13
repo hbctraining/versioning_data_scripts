@@ -39,7 +39,7 @@ For example, two users can make independent sets of changes based on the same do
 
 <img src="img/versions.png" width="400" align="center">
 
-If there aren't conflicts (i.e updates to the same line), the two sets of changes caned be "merged" back into the same base document.
+If there aren't conflicts (i.e updates to the same line), the two sets of changes can be "merged" back into the same base document.
 
 <img src="img/merged_example.png" width="400" align="center">
 
